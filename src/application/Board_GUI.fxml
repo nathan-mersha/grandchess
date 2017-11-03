@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<fx:root style="-fx-background-color: lightgray;" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane prefHeight="640.0" prefWidth="640.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="p00_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: darkgray;" />
+            <Pane fx:id="p01_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: GRAY;" GridPane.columnIndex="1" />
+            <Pane fx:id="p02_00" layoutX="10.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="2" />
+            <Pane fx:id="p03_00" layoutX="70.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: GRAY;" GridPane.columnIndex="3" />
+            <Pane fx:id="p04_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="4" />
+            <Pane fx:id="p05_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="5" />
+            <Pane fx:id="p06_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="6" />
+            <Pane fx:id="p07_00" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="7" />
+            <Pane fx:id="p08_00" layoutX="370.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="8" />
+            <Pane fx:id="p09_00" layoutX="430.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="9" />
+            <Pane fx:id="p00_01" layoutX="70.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.rowIndex="1" />
+            <Pane fx:id="p01_01" layoutX="130.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Pane fx:id="p02_01" layoutX="190.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Pane fx:id="p03_01" layoutX="250.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Pane fx:id="p04_01" layoutX="310.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Pane fx:id="p05_01" layoutX="370.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Pane fx:id="p06_01" layoutX="430.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Pane fx:id="p07_01" layoutX="490.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Pane fx:id="p08_01" layoutX="550.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Pane fx:id="p09_01" layoutX="430.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Pane fx:id="p00_02" layoutX="10.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.rowIndex="2" />
+            <Pane fx:id="p01_02" layoutX="70.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Pane fx:id="p02_02" layoutX="130.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Pane fx:id="p03_02" layoutX="190.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Pane fx:id="p04_02" layoutX="250.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Pane fx:id="p05_02" layoutX="310.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Pane fx:id="p06_02" layoutX="370.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Pane fx:id="p07_02" layoutX="430.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Pane fx:id="p08_02" layoutX="490.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Pane fx:id="p09_02" layoutX="550.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Pane fx:id="p00_03" layoutX="10.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.rowIndex="3" />
+            <Pane fx:id="p01_03" layoutX="70.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Pane fx:id="p02_03" layoutX="130.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Pane fx:id="p03_03" layoutX="190.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Pane fx:id="p04_03" layoutX="250.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Pane fx:id="p05_03" layoutX="310.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Pane fx:id="p06_03" layoutX="370.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Pane fx:id="p07_03" layoutX="430.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Pane fx:id="p08_03" layoutX="490.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Pane fx:id="p09_03" layoutX="550.0" layoutY="70.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Pane fx:id="p00_04" layoutX="10.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.rowIndex="4" />
+            <Pane fx:id="p01_04" layoutX="70.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Pane fx:id="p02_04" layoutX="130.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Pane fx:id="p03_04" layoutX="190.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Pane fx:id="p04_04" layoutX="250.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Pane fx:id="p05_04" layoutX="310.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Pane fx:id="p06_04" layoutX="370.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Pane fx:id="p07_04" layoutX="430.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Pane fx:id="p08_04" layoutX="490.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Pane fx:id="p09_04" layoutX="550.0" layoutY="10.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Pane fx:id="p00_05" layoutX="10.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.rowIndex="5" />
+            <Pane fx:id="p01_05" layoutX="70.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Pane fx:id="p02_05" layoutX="130.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Pane fx:id="p03_05" layoutX="190.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Pane fx:id="p04_05" layoutX="250.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Pane fx:id="p05_05" layoutX="310.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Pane fx:id="p06_05" layoutX="370.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Pane fx:id="p07_05" layoutX="430.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Pane fx:id="p08_05" layoutX="490.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Pane fx:id="p09_05" layoutX="550.0" layoutY="190.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Pane fx:id="p00_06" layoutX="10.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.rowIndex="6" />
+            <Pane fx:id="p01_06" layoutX="70.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Pane fx:id="p02_06" layoutX="130.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Pane fx:id="p03_06" layoutX="190.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Pane fx:id="p04_06" layoutX="250.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Pane fx:id="p05_06" layoutX="310.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Pane fx:id="p06_06" layoutX="370.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Pane fx:id="p07_06" layoutX="430.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Pane fx:id="p08_06" layoutX="490.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Pane fx:id="p09_06" layoutX="550.0" layoutY="250.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Pane fx:id="p00_07" layoutX="10.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.rowIndex="7" />
+            <Pane fx:id="p01_07" layoutX="70.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Pane fx:id="p02_07" layoutX="130.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Pane fx:id="p03_07" layoutX="190.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Pane fx:id="p04_07" layoutX="250.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Pane fx:id="p05_07" layoutX="310.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Pane fx:id="p06_07" layoutX="370.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Pane fx:id="p07_07" layoutX="430.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Pane fx:id="p08_07" layoutX="490.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Pane fx:id="p09_07" layoutX="550.0" layoutY="310.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Pane fx:id="p00_08" layoutX="10.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.rowIndex="8" />
+            <Pane fx:id="p01_08" layoutX="70.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Pane fx:id="p02_08" layoutX="130.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Pane fx:id="p03_08" layoutX="190.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Pane fx:id="p04_08" layoutX="250.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Pane fx:id="p05_08" layoutX="310.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Pane fx:id="p06_08" layoutX="370.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Pane fx:id="p07_08" layoutX="430.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Pane fx:id="p08_08" layoutX="490.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <Pane fx:id="p09_08" layoutX="550.0" layoutY="370.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+            <Pane fx:id="p00_09" layoutX="10.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.rowIndex="9" />
+            <Pane fx:id="p01_09" layoutX="70.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Pane fx:id="p02_09" layoutX="130.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Pane fx:id="p03_09" layoutX="190.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Pane fx:id="p04_09" layoutX="250.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Pane fx:id="p05_09" layoutX="310.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Pane fx:id="p06_09" layoutX="370.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Pane fx:id="p07_09" layoutX="430.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Pane fx:id="p08_09" layoutX="490.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <Pane fx:id="p09_09" layoutX="550.0" layoutY="430.0" onMouseClicked="#clickOnArea" onTouchPressed="#clickOnArea" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: DARKGRAY;" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Pane prefHeight="47.0" prefWidth="858.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar layoutY="-1.0" prefHeight="25.0" prefWidth="872.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem fx:id="openGame" mnemonicParsing="false" onAction="#onMenuAction" text="Open Game" />
+                        <MenuItem fx:id="saveGame" mnemonicParsing="false" onAction="#onMenuAction" text="Save Game" />
+                        <MenuItem fx:id="close" mnemonicParsing="false" onAction="#onMenuAction" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Game">
+                  <items>
+                        <Menu fx:id="singlePlayer" mnemonicParsing="false" text="Single Player">
+                          <items>
+                              <RadioMenuItem fx:id="easyMode" mnemonicParsing="false" onAction="#onGameModeSelection" text="Easy" />
+                              <RadioMenuItem fx:id="mediumMode" mnemonicParsing="false" onAction="#onGameModeSelection" selected="true" text="Medium" />
+                              <RadioMenuItem fx:id="hardMode" mnemonicParsing="false" onAction="#onGameModeSelection" text="Hard" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Player's Side">
+                           <items>
+                              <RadioMenuItem fx:id="playerBlackSide" mnemonicParsing="false" text="Black Side" />
+                              <RadioMenuItem fx:id="playerWhiteSide" mnemonicParsing="false" selected="true" text="White Side" />
+                           </items>
+                        </Menu>
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="multiPlayer" mnemonicParsing="false" onAction="#onMenuAction" text="Multi Player" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="resetTimer" mnemonicParsing="false" onAction="#onMenuAction" text="New Game" />
+                        <MenuItem fx:id="setTimer" mnemonicParsing="false" onAction="#onMenuAction" text="Set Timer" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <CheckMenuItem fx:id="showPossibleMoves" mnemonicParsing="false" onAction="#onMenuAction" selected="true" text="Show Possible Moves" />
+                        <MenuItem fx:id="undo" mnemonicParsing="false" onAction="#onMenuAction" text="Undo Move" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem fx:id="aboutGrandChess" mnemonicParsing="false" onAction="#onMenuAction" text="About Grand Chess" />
+                        <MenuItem fx:id="credit" mnemonicParsing="false" onAction="#onMenuAction" text="Credit &amp; Contact Us" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <GridPane layoutY="22.0" prefHeight="27.0" prefWidth="658.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="68.0" text="a" textFill="#979696">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="66.0" text="b" textFill="#979696" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="72.0" text="c" textFill="#979696" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="65.0" text="d" textFill="#979696" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="67.0" text="e" textFill="#979696" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="68.0" text="f" textFill="#979696" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="71.0" text="g" textFill="#979696" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="67.0" text="h" textFill="#979696" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="70.0" text="i" textFill="#979696" GridPane.columnIndex="8">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="79.0" text="j" textFill="#979696" GridPane.columnIndex="9">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+   </top>
+   <right>
+      <Pane prefHeight="640.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="9.0">
+               <children>
+                  <GridPane prefHeight="650.0" prefWidth="18.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="24.0" text="1" textFill="#979696">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="2" textFill="#979696" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="3" textFill="#979696" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="4" textFill="#979696" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="5" textFill="#979696" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="15.0" text="6" textFill="#979696" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="7" textFill="#979696" GridPane.rowIndex="6">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="8" textFill="#979696" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="9" textFill="#979696" GridPane.rowIndex="8">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefWidth="14.0" text="10" textFill="#979696" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <Pane>
+                     <children>
+                        <ProgressBar fx:id="blackProgress" layoutX="3.0" layoutY="20.0" prefHeight="25.0" prefWidth="173.0" progress="0.0" />
+                        <Label fx:id="blackName" layoutX="3.0" text="Player 1 ( Black)">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="blackTimer" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="35.0" layoutY="24.0" prefHeight="17.0" prefWidth="136.0" text="00:00" />
+                        <Label layoutX="5.0" layoutY="47.0" prefHeight="17.0" prefWidth="92.0" text="Captured Pieces" textFill="#797979" underline="true">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="83.0" layoutY="148.0" text="History" textFill="#797979" underline="true">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="start" layoutY="271.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="25.0" prefWidth="77.0" text="Start" />
+                        <Button fx:id="newGame" layoutY="306.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="25.0" prefWidth="77.0" text="New" />
+                        <ProgressBar fx:id="whiteProgress" layoutX="3.0" layoutY="597.0" prefHeight="25.0" prefWidth="173.0" progress="0.0" />
+                        <Label fx:id="whiteTimer" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="45.0" layoutY="601.0" prefHeight="17.0" prefWidth="126.0" text="00:00" />
+                        <Label fx:id="whiteName" layoutX="4.0" layoutY="621.0" text="Player 2 ( White)">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="5.0" layoutY="576.0" prefHeight="17.0" prefWidth="92.0" text="Captured Pieces" textFill="#797979" underline="true">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <ScrollPane fx:id="history" layoutX="81.0" layoutY="168.0" prefHeight="316.0" prefWidth="95.0" style="-: ;" />
+                        <ImageView fx:id="whiteLock" fitHeight="10.0" fitWidth="10.0" layoutX="165.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/Lock_Locked.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="blackLock" fitHeight="10.0" fitWidth="10.0" layoutX="165.0" layoutY="579.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/Lock_Locked.png" />
+                           </image>
+                        </ImageView>
+                        <GridPane fx:id="whitePrison" layoutX="4.0" layoutY="71.0" prefHeight="68.0" prefWidth="172.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                        <GridPane fx:id="blackPrison" layoutX="4.0" layoutY="501.0" prefHeight="68.0" prefWidth="172.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </right>
+</fx:root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<anttasks:AntTask xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:anttasks="http://org.eclipse.fx.ide.jdt/1.0" buildDirectory="C:\Users\N8\Desktop\GrandChess Compile">
+  <deploy placeholderref="GrandChess" placeholderid="GrandChess" splashImage="grandChess_Splash.jpg" packagingFormat="all" proxyResolution="true">
+    <application name="GrandChess" mainclass="application.Main" version="1.0.0" toolkit="swing"/>
+    <info title="GrandChess_Mp" vendor="Awra Designs"/>
+  </deploy>
+  <signjar alias="devkey" keypass="atlasshrugged" keystore="C:\Users\N8\Desktop\mykeystore" storepass="atlasshrugged"/>
+</anttasks:AntTask>
